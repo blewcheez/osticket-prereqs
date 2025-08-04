@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br/> 
 <h3> Step 1: Creating the resource group </h3>
 
-- In Azure, locate and create a resouce group (using your free or paid subscription.
+- In Azure, locate and create a resource group (using your free or paid subscription.
 - Name: osticket
 
 <p>
@@ -46,11 +46,11 @@ You should have something similar to this.
 </p>
 <br />
 
-<h3> Step 2: Install a windows virtual machine</h3>
+<h3> Step 2: Install a Windows virtual machine</h3>
 
-- In Azure, locate and create a virtual machine. (Windows 10 pro version 22H2).
+- In Azure, locate and create a virtual machine. (Windows 10 Pro version 22H2).
 - Name: osticket-vm.
-- Reigon: East US 2.
+- Region: East US 2.
 - Size: 2vcpus, 8 GiB memory.
 
 <h3> Set the username to "mr_admin" and password to "Password1"</h3>
@@ -67,7 +67,7 @@ You should have something similar to this.
 
 <h3> Step 3: Logging into our Virtual Machine (VM) through Remote Desktop </h3>
 
-- In Azure, locate your osTicket-vm, and copy the public IP addresss.
+- In Azure, locate your osTicket-vm, and copy the public IP address.
 - Paste it into your Remote Desktop 
 - Sign in with "mr_admin" & "Passworrd1". 
 - Hit yes and login. 
@@ -122,7 +122,7 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 
 - Open IIS as an Admin
 - Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
-- Reload IIS (Open IIS, Stop and Start the server)
+- Reload IIS (Open IIS, Stop, and Start the server)
 <img src="https://i.imgur.com/SoJmCJL.png" height="80%" width="80%"/>
 <img src="https://i.imgur.com/Edsom8D.png" height="80%" width="80%"/>
 <img src="https://i.imgur.com/LflMXkC.png" height="80%" width="80%"/>
@@ -132,7 +132,7 @@ Like so.
 - Install osTicket v1.15.8
 - From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
 
-- Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+- Within “c:\inetpub\wwwroot”, rename “upload” to “osTicket”
 
 - Reload IIS (Open IIS, Stop and Start the server)
 <img src="https://i.imgur.com/Bsswuei.png" height="80%" width="80%"/>
@@ -147,7 +147,7 @@ Now you're getting the hang of this!
 On the right, click “Browse *:80”
 <img src="https://i.imgur.com/tN2ArMw.png" height="80%" width="80%"/> 
 <img src="https://i.imgur.com/LN2ttFC.png" height="80%" width="80%"/> 
- Note that some extensions are not enabled, lets fix this. 
+ Note that some extensions are not enabled, let's fix this. 
 - Go back to IIS, sites -> Default -> osTicket
 - Double-click PHP Manager
 - Click “Enable or disable an extension”
@@ -156,7 +156,7 @@ On the right, click “Browse *:80”
 - Enable: php_intl.dll
 - Enable: php_opcache.dll
 <img src="https://i.imgur.com/cwvoePB.png" height="80%" width="80%"/> 
-- Refresh the osTicket site in your browser, observe the changes 
+- Refresh the osTicket site in your browser, and observe the changes 
 
 <br><br/> 
 <h3> Step 6: ost-config.php and setting up osTicket in browser</h3> 
@@ -201,7 +201,7 @@ Perfecto.
 <img src="https://i.imgur.com/uf6bg0W.png" height="80%" width="80%"/> 
 <img src="https://i.imgur.com/OQC2Y9L.png" height="80%" width="80%"/> 
 
-- Continue Setting up osTicket in the browser
+- Continue setting up osTicket in the browser
 - MySQL Database: osTicket
   
 - MySQL Username: root
